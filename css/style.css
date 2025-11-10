@@ -122,6 +122,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .buttonBanner{
+    padding-top: 65px ;
     display: flex;
 }
 
@@ -131,5 +132,32 @@ h1, h2, h3, h4, h5, h6, p{
     /* width: 100%; */
 }
 
+.buttonContact{
+    background-color: #5E3BEE;
+    font-weight:400; 
+    padding: 16px 23px 14px 23px;
+    font-size: 14px;
+     
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.buttonCv{
+    background-color: #5E3BEE;
+    font-weight:400; 
+    padding: 16px 23px 14px 23px;
+    font-size: 14px;
+     
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.buttonContact a:hover{
+    background: transparent;
+}
+
+.buttonCv a:hover{
+    background: transparent;
+}
 
 /* Banner Part End */
